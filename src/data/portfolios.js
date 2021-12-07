@@ -135,8 +135,8 @@ const portfolios = [
         id: 14,
         category: 'DESIGN',
         image: img13,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        link1: 'https://github.com/Shahin102/portfolio-webapp/tree/main/public',
+        link2: 'https://portfolio-webapp-pi.vercel.app/',
         title: 'Portfolio Website 2.0',
         text: 'Tools & Techs --> React.js, Styled-Components & EmailJS'
     },
