@@ -90,7 +90,7 @@ const portfolios = [
         id: 9,
         category: 'MOBILE',
         image: img9,
-        link1: 'https://www.google.com',
+        link1: 'https://github.com/Shahin102/uber-clone',
         link2: 'https://expo.dev/@shahin_zaman/uber-clone-mobileApp',
         title: 'Uber Clone',
         text: 'Tools & Techs --> React Native, React Redux, React Navigation, Tailwind CSS & Google Autocomplete'
