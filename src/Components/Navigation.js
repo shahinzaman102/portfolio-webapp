@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import avatar from '../img/avatar.jpg';
 
 function Navigation() {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt=""/>
+                <img src={avatar} alt="" />
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
@@ -30,7 +30,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Lorem Ipsum</b></p>
+                <p>@2021 <b>Shahin Zaman</b></p>
             </footer>
         </NavigationStyled>
     )
