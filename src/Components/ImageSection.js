@@ -29,7 +29,7 @@ function ImageSection() {
                         <p>: Shahin Zaman</p>
                         <p>: 23</p>
                         <p>: Bangladeshi </p>
-                        <p>: English, Bangla, Hindi </p>
+                        <p>: English, Hindi, Bangla</p>
                         <p>: Dhaka, Bangladesh</p>
                         {/* <p>: Freelance</p> */}
                     </div>
