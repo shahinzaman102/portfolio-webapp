@@ -17,7 +17,7 @@ function HomePage() {
                     I design and code beautifully simple things from scratch, and enjoy bringing ideas to life in the browser.
                 </p>
                 <div className="icons">
-                    <a href="https://github.com/Shahin102/" target="_blank" className="icon i-github">
+                    <a href="https://github.com/shahinesstr" target="_blank" className="icon i-github">
                         <GithubIcon />
                     </a>
                     <a href="https://www.linkedin.com/in/shahin-zaman-43b0a9190/" target="_blank" className="icon i-youtube">
