@@ -34,7 +34,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'DESIGN',
+        category: 'DEVELOPMENT',
         image: img3,
         link1: 'https://github.com/shahinesstr/facebook-messenger-clone',
         link2: 'https://lucid-banach-d50f4a.netlify.app/',
@@ -47,7 +47,7 @@ const portfolios = [
         image: img4,
         link1: 'https://github.com/shahinesstr/spotify-clone',
         link2: 'https://blissful-heisenberg-5b6ff8.netlify.app/',
-        title: 'Spotify Clone',
+        title: 'Spotify Clone UI',
         text: 'Tools & Techs --> React.js, CSS, Spotify.js & Spotify Authorization'
     },
     {
@@ -56,7 +56,7 @@ const portfolios = [
         image: img5,
         link1: 'https://github.com/shahinesstr/airbnb-clone',
         link2: 'https://airbnb-clone-sigma-ebon.vercel.app/',
-        title: 'Airbnb Clone',
+        title: 'Airbnb Clone UI',
         text: 'Tools & Techs --> React.js, CSS'
     },
     {
