@@ -101,7 +101,7 @@ const portfolios = [
         image: img10,
         // link1: '',
         link2: 'https://www.figma.com/file/WGNhCM1lK7a6xmxIOExWUg/portfolio?node-id=0%3A1',
-        title: 'Figma Portfolio Design',
+        title: 'Figma Portfolio (Prototype)',
         text: 'Tools & Techs --> Figma'
     },
     {
