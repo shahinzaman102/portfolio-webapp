@@ -98,6 +98,15 @@ const portfolios = [
     {
         id: 10,
         category: 'DESIGN',
+        image: img11,
+        link1: 'https://github.com/shahinesstr/portfolio-website',
+        link2: 'https://portfolio-website-ochre.vercel.app/',
+        title: 'Portfolio Website',
+        text: 'Tools & Techs --> React.js, CSS & EmailJS'
+    },
+    {
+        id: 11,
+        category: 'DESIGN',
         image: img10,
         // link1: '',
         link2: 'https://www.figma.com/file/WGNhCM1lK7a6xmxIOExWUg/portfolio?node-id=0%3A1',
@@ -105,7 +114,7 @@ const portfolios = [
         text: 'Tools & Techs --> Figma'
     },
     {
-        id: 11,
+        id: 12,
         category: 'DESIGN',
         image: img14,
         // link1: '',
@@ -114,31 +123,22 @@ const portfolios = [
         text: 'Tools & Techs --> Figma'
     },
     {
-        id: 12,
-        category: 'DESIGN',
-        image: img11,
-        link1: 'https://github.com/shahinesstr/portfolio-website',
-        link2: 'https://portfolio-website-ochre.vercel.app/',
-        title: 'Portfolio Website',
-        text: 'Tools & Techs --> React.js, CSS & EmailJS'
-    },
-    {
         id: 13,
-        category: 'DESIGN',
-        image: img12,
-        link1: 'https://github.com/shahinesstr/shopping-cart',
-        link2: 'https://shopping-cart-one-chi.vercel.app/',
-        title: 'Shopping Cart',
-        text: 'Tools & Techs --> React TypeScript, React Query & Styled-Components'
-    },
-    {
-        id: 14,
         category: 'DESIGN',
         image: img13,
         link1: 'https://github.com/shahinesstr/portfolio-webapp',
         link2: 'https://portfolio-webapp-pi.vercel.app/',
         title: 'Portfolio Website 2.0',
         text: 'Tools & Techs --> React.js, Styled-Components & EmailJS'
+    },
+    {
+        id: 14,
+        category: 'DESIGN',
+        image: img12,
+        link1: 'https://github.com/shahinesstr/shopping-cart',
+        link2: 'https://shopping-cart-one-chi.vercel.app/',
+        title: 'Shopping Cart',
+        text: 'Tools & Techs --> React TypeScript, React Query & Styled-Components'
     },
 ]
 
