@@ -101,7 +101,7 @@ const portfolios = [
         image: img10,
         // link1: '',
         link2: 'https://www.figma.com/file/WGNhCM1lK7a6xmxIOExWUg/portfolio?node-id=0%3A1',
-        title: 'Figma Portfolio (Prototype)',
+        title: 'Portfolio UX Design (Prototype)',
         text: 'Tools & Techs --> Figma'
     },
     {
@@ -110,7 +110,7 @@ const portfolios = [
         image: img14,
         // link1: '',
         link2: 'https://www.figma.com/file/NqNjNGwbosA68qnF4q1afr/Untitled?node-id=0%3A1',
-        title: 'Figma Resume Design',
+        title: 'Resume Design',
         text: 'Tools & Techs --> Figma'
     },
     {
