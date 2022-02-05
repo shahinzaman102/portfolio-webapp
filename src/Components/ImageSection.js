@@ -21,7 +21,7 @@ function ImageSection() {
                         <p>Full Name</p>
                         <p>Age</p>
                         <p>Nationality </p>
-                        <p>Languages </p>
+                        <p>English Proficiency </p>
                         <p>Location</p>
                         {/* <p>Service</p> */}
                     </div>
@@ -29,7 +29,7 @@ function ImageSection() {
                         <p>: Shahin Zaman</p>
                         <p>: 23</p>
                         <p>: Bangladeshi </p>
-                        <p>: English, Hindi, Bangla</p>
+                        <p>: Fluent</p>
                         <p>: Dhaka, Bangladesh</p>
                         {/* <p>: Freelance</p> */}
                     </div>

@@ -1,4 +1,4 @@
-import img1 from '../img/portImages/blog.PNG';
+import img1 from '../img/portImages/blogs.PNG';
 import img2 from '../img/portImages/amazon.PNG';
 import img3 from '../img/portImages/messenger.PNG';
 import img4 from '../img/portImages/spotify.PNG';
@@ -82,7 +82,7 @@ const portfolios = [
         category: 'DEVELOPMENT',
         image: img8,
         link1: 'https://github.com/shahinesstr/node-mysql-jwt-authentication-rest-api',
-        // link2: '',
+        link2: 'https://blogsweb.herokuapp.com/restApi-rree',
         title: 'JWT Authentication Rest API',
         text: 'Tools & Techs --> Node.js, MySQL'
     },

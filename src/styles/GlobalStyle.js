@@ -128,7 +128,7 @@ h6{
 }
 
 
-//Floting Toggler
+//Floating Toggler
 .light-dark-mode{
     position: fixed;
     right: 0;

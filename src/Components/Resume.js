@@ -14,55 +14,28 @@ function Resume() {
         <ResumeStyled>
             <Title title={'Resume'} span={'resume'} />
             <InnerLayout>
-                {/* <div className="small-title">
-                    <SmallTitle icon={briefcase} title={'Working Experience'} />
-                </div>
-                <div className="resume-content">
-                    <ResumeItem
-                        year={'2015 - 2020'}
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
-                    />
-                    <ResumeItem
-                        year={'2015 - Present'}
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
-                    />
-                    <ResumeItem
-                        year={'2010 - 2017'}
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
-                    />
-                </div> */}
                 <div className="small-title u-small-title-margin">
                     <SmallTitle icon={school} title={'Educational Qualifications'} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem
                         year={'2018 - 2023'}
-                        title={'BSc in Computer Science and Engineering'}
+                        title={'BSc in Computer Science & Engineering'}
                         subTitle={'Bangladesh Open University'}
-                        text={'Result: First Class'}
+                        text={'I have learned about some related topics like : Data-Structures, Algorithms, OOP and Software Design etc (running).'}
                     />
-                    <div className="high_school">
-                        <ResumeItem
-                            year={'2014 - 2016'}
-                            title={'Higher Secondary School Graduation'}
-                            subTitle={'Government Laboratory High School'}
-                            text={'Group: Science; Result: First Class'}
-                        />
-                    </div>
-                    <div className="school">
-                        <ResumeItem
-                            year={'2005 - 2014'}
-                            title={'Secondary School Graduation'}
-                            subTitle={'Wazuddin High School'}
-                            text={'Group: Science; Result: First Class'}
-                        />
-                    </div>
+                    <ResumeItem
+                        year={'2014 - 2016'}
+                        title={'Higher Secondary School Graduation'}
+                        subTitle={'Government Laboratory High School'}
+                        text={'I have learned about Math, Physics, Chemistry, Biology & some General subjects like Social Science, Literature etc.'}
+                    />
+                    <ResumeItem
+                        year={'2005 - 2014'}
+                        title={'Secondary School Graduation'}
+                        subTitle={'Wazuddin High School'}
+                        text={'I have learned about Math, Physics, Chemistry, Biology & some General subjects like Social Science, Literature etc.'}
+                    />
                 </div>
             </InnerLayout>
         </ResumeStyled>
@@ -79,15 +52,6 @@ const ResumeStyled = styled.section`
 
     .resume-content{
         border-left: 2px solid var(--border-color);
-    }
-
-    .high_school{
-        margin-right: 2.5rem;
-    }
-
-    .school{
-        margin-top: 2.5rem;
-        margin-right: 6.3rem;
     }
 `;
 export default Resume
