@@ -1,3 +1,8 @@
+#### This project has come from --> ####
+##### YouTube: https://www.youtube.com/watch?v=tiOChpaiFBc&t=12532s&ab_channel=MacLinzUniversalChannel #####
+##### GitHub: https://github.com/Maclinz/final-portfolio-2 #####
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
