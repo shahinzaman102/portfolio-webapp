@@ -34,7 +34,7 @@ function ImageSection() {
                         {/* <p>: Freelance</p> */}
                     </div>
                 </div>
-                <a class="download" href="/files/resume-1.pdf" target="_blank">
+                <a class="download" href="/files/resume.pdf" target="_blank">
                     <PrimaryButton title={'Download Resume'} />
                 </a>
             </div>
