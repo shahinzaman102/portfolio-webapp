@@ -27,7 +27,7 @@ function ImageSection() {
                     </div>
                     <div className="info">
                         <p>: Shahin Zaman</p>
-                        <p>: 23</p>
+                        <p>: 24</p>
                         <p>: Bangladeshi </p>
                         <p>: Fluent</p>
                         <p>: Dhaka, Bangladesh</p>

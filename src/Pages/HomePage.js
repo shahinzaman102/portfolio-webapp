@@ -20,10 +20,10 @@ function HomePage() {
                     <a href="https://github.com/shahinesstr" target="_blank" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://www.linkedin.com/in/shahin-zaman-43b0a9190/" target="_blank" className="icon i-youtube">
+                    <a href="https://www.linkedin.com/in/shahin-zaman-036148241/" target="_blank" className="icon i-youtube">
                         <LinkedInIcon />
                     </a>
-                    <a href="https://www.facebook.com/shahinzaman.1110/" target="_blank" className="icon i-facebook">
+                    <a href="" target="_blank" className="icon i-facebook">
                         <FacebookIcon />
                     </a>
                 </div>
