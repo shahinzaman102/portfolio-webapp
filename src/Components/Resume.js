@@ -22,7 +22,7 @@ function Resume() {
                         year={'2018 - 2023'}
                         title={'BSc in Computer Science & Engineering'}
                         subTitle={'Bangladesh Open University'}
-                        text={'I have learned about some related topics like : Data-Structures, Algorithms, OOP and Software Design etc (running).'}
+                        text={'I have learned about Structured Programming, Data-Structures, Algorithms, OOP and Software Engineering (Ongoing..).'}
                     />
                     <ResumeItem
                         year={'2014 - 2016'}
