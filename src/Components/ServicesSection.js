@@ -15,20 +15,20 @@ function ServicesSection() {
                 <div className="services">
                     <ServiceCard
                         image={design}
-                        title={'Web App Design'}
-                        paragraph={'I like to code things from scratch, and enjoy bringing ideas to life in the browser.'}
+                        title={'Web App Development'}
+                        paragraph={'I love to work with Microservice acrhitecture. Microservice apps are very efficient and resilient that is I love to do it.'}
                     />
                     <div className="mid-card">
                         <ServiceCard
                             image={design}
-                            title={'Web App Development'}
-                            paragraph={'I value simple content structure, clean design patterns, and thoughtful interactions with servers'}
+                            title={'Cloud Service'}
+                            paragraph={'I have quite knowledge working with Amazon Web Services and Google Cloud Platform. Hopefully I will do more works in near future.'}
                         />
                     </div>
                     <ServiceCard
                         image={design}
-                        title={'Mobile App Development'}
-                        paragraph={'I love to build Mobile Apps using React Native and in future I would love to navigate more techs for building mobile apps.'}
+                        title={'Telecommunications'}
+                        paragraph={'I am passionate about iOT products hopefully in future I will work with cloud computing and iot products to contribute to the Telecommunication Industry.'}
                     />
                 </div>
             </ServicesSectionStyled>

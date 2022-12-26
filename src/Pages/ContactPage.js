@@ -23,7 +23,7 @@ function ContactPage() {
 
         emailjs
             .sendForm(
-                "service_2dx267c", "template_lw9ms9q", formRef.current, "user_3LrQOEJHSxzFC1Qs54SSt"
+                "service_n8hgpr6", "template_lw9ms9q", formRef.current, "user_3LrQOEJHSxzFC1Qs54SSt"
                 // *user_id* can be found from emailjs-site --> Integration
             )
             .then(

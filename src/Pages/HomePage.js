@@ -17,10 +17,10 @@ function HomePage() {
                     I design and code beautifully simple things from scratch, and enjoy bringing ideas to life in the browser.
                 </p>
                 <div className="icons">
-                    <a href="https://github.com/shahinesstr" target="_blank" className="icon i-github">
+                    <a href="https://github.com/hubshahin" target="_blank" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://www.linkedin.com/in/shahin-zaman-036148241/" target="_blank" className="icon i-youtube">
+                    <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" className="icon i-youtube">
                         <LinkedInIcon />
                     </a>
                     <a href="" target="_blank" className="icon i-facebook">
