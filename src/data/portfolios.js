@@ -21,7 +21,7 @@ const portfolios = [
         category: 'FullStack',
         image: img1,
         link1: 'https://github.com/hubshahin/blog-website',
-        link2: 'https://blogsweb.herokuapp.com/',
+        link2: 'https://blog-website-hazel.vercel.app/',
         title: 'Blogging Site',
         text: 'Tools & Techs --> HTML, CSS, JavaScript, Node.js & Firebase'
     },
@@ -84,7 +84,7 @@ const portfolios = [
         category: 'FullStack',
         image: img8,
         link1: 'https://github.com/hubshahin/node-mysql-jwt-authentication-rest-api',
-        link2: 'https://blogsweb.herokuapp.com/restApi-rree',
+        link2: 'https://blog-website-hazel.vercel.app/restApi-rree',
         title: 'JWT Authentication Rest API',
         text: 'Tools & Techs --> Node.js, MySQL'
     },
