@@ -20,7 +20,7 @@ const portfolios = [
         id: 1,
         category: 'FullStack',
         image: img1,
-        link1: 'https://github.com/shahinesstr/blog-website',
+        link1: 'https://github.com/hubshahin/blog-website',
         link2: 'https://blogsweb.herokuapp.com/',
         title: 'Blogging Site',
         text: 'Tools & Techs --> HTML, CSS, JavaScript, Node.js & Firebase'
@@ -29,7 +29,7 @@ const portfolios = [
         id: 2,
         category: 'DESIGN',
         image: img2,
-        link1: 'https://github.com/shahinesstr/amazon-clone-ui',
+        link1: 'https://github.com/hubshahin/amazon-clone-ui',
         link2: 'https://youthful-bell-a38e65.netlify.app/',
         title: 'Amazon Clone UI',
         text: 'Tools & Techs --> React.js, CSS & Firebase'
@@ -38,7 +38,7 @@ const portfolios = [
         id: 3,
         category: 'FullStack',
         image: img3,
-        link1: 'https://github.com/shahinesstr/facebook-messenger-clone',
+        link1: 'https://github.com/hubshahin/facebook-messenger-clone',
         link2: 'https://lucid-banach-d50f4a.netlify.app/',
         title: 'Facebook Messenger Clone',
         text: 'Tools & Techs --> React.js, CSS, Node.js & Firebase'
@@ -47,7 +47,7 @@ const portfolios = [
         id: 4,
         category: 'DESIGN',
         image: img4,
-        link1: 'https://github.com/shahinesstr/spotify-clone',
+        link1: 'https://github.com/hubshahin/spotify-clone',
         link2: 'https://blissful-heisenberg-5b6ff8.netlify.app/',
         title: 'Spotify Clone UI',
         text: 'Tools & Techs --> React.js, CSS, Spotify.js & Spotify Authorization'
@@ -56,7 +56,7 @@ const portfolios = [
         id: 5,
         category: 'DESIGN',
         image: img5,
-        link1: 'https://github.com/shahinesstr/airbnb-clone',
+        link1: 'https://github.com/hubshahin/airbnb-clone',
         link2: 'https://airbnb-clone-sigma-ebon.vercel.app/',
         title: 'Airbnb Clone UI',
         text: 'Tools & Techs --> React.js, CSS'
@@ -65,7 +65,7 @@ const portfolios = [
         id: 6,
         category: 'FullStack',
         image: img6,
-        link1: 'https://github.com/shahinesstr/amazon-clone-nextjs',
+        link1: 'https://github.com/hubshahin/amazon-clone-nextjs',
         link2: 'https://amazon-clone-nextjs-taupe.vercel.app/',
         title: 'Amazon Clone 2.0',
         text: 'Tools & Techs --> Next.js, React Redux, Tailwind CSS, Node.js, NextAuth.js, Stripe & Firebase'
@@ -74,7 +74,7 @@ const portfolios = [
         id: 7,
         category: 'FullStack',
         image: img7,
-        link1: 'https://github.com/shahinesstr/todo-task-manager',
+        link1: 'https://github.com/hubshahin/todo-task-manager',
         // link2: '',
         title: 'To Do Task Manager',
         text: 'Tools & Techs --> React.js, Node.js, MySQL'
@@ -83,7 +83,7 @@ const portfolios = [
         id: 8,
         category: 'FullStack',
         image: img8,
-        link1: 'https://github.com/shahinesstr/node-mysql-jwt-authentication-rest-api',
+        link1: 'https://github.com/hubshahin/node-mysql-jwt-authentication-rest-api',
         link2: 'https://blogsweb.herokuapp.com/restApi-rree',
         title: 'JWT Authentication Rest API',
         text: 'Tools & Techs --> Node.js, MySQL'
@@ -92,7 +92,7 @@ const portfolios = [
         id: 9,
         category: 'MOBILE',
         image: img9,
-        link1: 'https://github.com/shahinesstr/uber-clone',
+        link1: 'https://github.com/hubshahin/uber-clone',
         link2: 'https://expo.dev/@shahin_zaman/uber-clone-mobileApp',
         title: 'Uber Clone',
         text: 'Tools & Techs --> React Native, React Redux, React Navigation, Tailwind CSS & Google Autocomplete'
@@ -101,7 +101,7 @@ const portfolios = [
         id: 10,
         category: 'DESIGN',
         image: img11,
-        link1: 'https://github.com/shahinesstr/portfolio-website',
+        link1: 'https://github.com/hubshahin/portfolio-website',
         link2: 'https://portfolio-website-ochre.vercel.app/',
         title: 'Portfolio Website',
         text: 'Tools & Techs --> React.js, CSS & EmailJS'
@@ -128,8 +128,8 @@ const portfolios = [
         id: 13,
         category: 'DESIGN',
         image: img13,
-        link1: 'https://github.com/shahinesstr/portfolio-webapp',
-        link2: 'https://portfolio-webapp-pi.vercel.app/',
+        link1: 'https://github.com/hubshahin/portfolio-webapp',
+        link2: 'https://portfolio-hubshahin.vercel.app/',
         title: 'Portfolio Website 2.0',
         text: 'Tools & Techs --> React.js, Styled-Components & EmailJS'
     },
@@ -137,7 +137,7 @@ const portfolios = [
         id: 14,
         category: 'DESIGN',
         image: img12,
-        link1: 'https://github.com/shahinesstr/shopping-cart',
+        link1: 'https://github.com/hubshahin/shopping-cart',
         link2: 'https://shopping-cart-one-chi.vercel.app/',
         title: 'Shopping Cart',
         text: 'Tools & Techs --> React TypeScript, React Query & Styled-Components'
