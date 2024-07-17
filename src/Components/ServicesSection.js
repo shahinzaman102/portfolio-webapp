@@ -15,21 +15,21 @@ function ServicesSection() {
                 <div className="services">
                     <ServiceCard
                         image={design}
-                        title={'Web App Development'}
-                        paragraph={'I love to work with Microservice acrhitecture. Microservice apps are very efficient and resilient that is I love to do it.'}
+                        title={'IoT & Telecommunications'}
+                        paragraph={'Driven by a passion for IoT and expertise in IoT device driver development, with a year of experience in IoT technology. Aiming to excel in the telecommunications industry, where IoT is pivotal.'}
                     />
                     <div className="mid-card">
                         <ServiceCard
                             image={design}
-                            title={'Cloud Service'}
-                            paragraph={'I have quite knowledge working with Amazon Web Services and Google Cloud Platform. Hopefully I will do more works in near future.'}
+                            title={'Software Development'}
+                            paragraph={'The knowledge and experience in software development ensure effective collaboration with teams, providing confidence in contributing to and communicating about projects within the company.'}
                         />
                     </div>
-                    <ServiceCard
+                    {/* <ServiceCard
                         image={design}
-                        title={'Telecommunications'}
-                        paragraph={'I am passionate about iOT products hopefully in future I will work with cloud computing and iot products to contribute to the Telecommunication Industry.'}
-                    />
+                        title={'Web Development'}
+                        paragraph={''}
+                    /> */}
                 </div>
             </ServicesSectionStyled>
         </InnerLayout>

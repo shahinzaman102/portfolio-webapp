@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import { InnerLayout } from '../styles/Layouts';
 import Title from '../Components/Title';
@@ -7,34 +7,68 @@ import ProgressBar from './ProgressBar';
 function Skills() {
     return (
         <SkillsStyled>
-
-            <Title title={'My Skills'} span={'my skills'} />
+            <Title title={'Skills'} span={'skills'} />
             <InnerLayout>
                 <div className="skills">
                     <ProgressBar
-                        title={'HTML5'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'CSS3'}
-                        width={'50%'}
-                        text={'50%'}
-                    />
-                    <ProgressBar
-                        title={'JAVASCRIPT'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'REACT JS'}
+                        title={'Problem Solving'}
                         width={'70%'}
                         text={'70%'}
                     />
                     <ProgressBar
-                        title={'NODE JS'}
+                        title={'IoT (Internet of Things)'}
+                        width={'25%'}
+                        text={'25%'}
+                    />
+                    <ProgressBar
+                        title={'Device Driver Development'}
                         width={'60%'}
                         text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'Go'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'JavaScript'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'Python'}
+                        width={'20%'}
+                        text={'20%'}
+                    />
+                    <ProgressBar
+                        title={'Telecommunications'}
+                        width={'5%'}
+                        text={'5%'}
+                    />
+                    <ProgressBar
+                        title={'UX/UI Design'}
+                        width={'20%'}
+                        text={'20%'}
+                    />
+                    <ProgressBar
+                        title={'Frontend development'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'Backend Development'}
+                        width={'40%'}
+                        text={'40%'}
+                    />
+                    <ProgressBar
+                        title={'Cloud Computing'}
+                        width={'15%'}
+                        text={'15%'}
+                    />
+                    <ProgressBar
+                        title={'Linux'}
+                        width={'50%'}
+                        text={'50%'}
                     />
                 </div>
             </InnerLayout>
@@ -43,7 +77,9 @@ function Skills() {
 }
 
 const SkillsStyled = styled.section`
-    .skills{
+    margin-bottom: 4rem; /* Add margin bottom here */
+    
+    .skills {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 2rem;

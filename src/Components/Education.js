@@ -1,40 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 import { InnerLayout } from '../styles/Layouts';
-import Title from '../Components/Title';
-import SmallTitle from '../Components/SmallTitle';
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
-import SchoolIcon from '@material-ui/icons/School';
-import ResumeItem from '../Components/ResumeItem';
+import Title from './Title';
+import ResumeItem from './ResumeItem';
 
-function Resume() {
-    const briefcase = <BusinessCenterIcon />
-    const school = <SchoolIcon />
+function Education() {
     return (
         <ResumeStyled>
-            <Title title={'Resume'} span={'resume'} />
+            <Title title={'Educational'} span={'education'} />
             <InnerLayout>
-                <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={school} title={'Educational Qualifications'} />
-                </div>
                 <div className="resume-content ">
                     <ResumeItem
                         year={'2018 - 2023'}
                         title={'BSc in Computer Science & Engineering'}
                         subTitle={'Bangladesh Open University'}
-                        text={'I have learned about Structured Programming, Data-Structures, Algorithms, OOP and Software Engineering (Ongoing..).'}
+                        text={'Electronic Device and Circuits, Digital Logic Design, Microprocessors and Microcontrollers, Computer Peripherals and Interfacing, Computer Graphics, Operating System, E-commerce, Technical Writing and Seminar, Professional Ethics and Cyber Law, Telecommunication, Structured Programming, Data-Structures, Algorithms, Object Oriented Programming (OOP) etc.'}
                     />
                     <ResumeItem
                         year={'2014 - 2016'}
                         title={'Higher Secondary School Graduation'}
                         subTitle={'Government Laboratory High School'}
-                        text={'I have learned about Math, Physics, Chemistry, Biology & some General subjects like Social Science, Literature etc.'}
+                        text={'Higher Mathematics, Physics, Chemistry, Biology, Information and Communication Technology (ICT) etc.'}
                     />
                     <ResumeItem
                         year={'2005 - 2014'}
                         title={'Secondary School Graduation'}
                         subTitle={'Wazuddin High School'}
-                        text={'I have learned about Math, Physics, Chemistry, Biology & some General subjects like Social Science, Literature etc.'}
+                        text={'Higher Mathematics, General Mathematics, Physics, Chemistry, Biology, Social Science, History, Literature etc.'}
                     />
                 </div>
             </InnerLayout>
@@ -54,4 +46,4 @@ const ResumeStyled = styled.section`
         border-left: 2px solid var(--border-color);
     }
 `;
-export default Resume
+export default Education

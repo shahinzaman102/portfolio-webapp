@@ -1,13 +1,15 @@
 import React from 'react';
 import Skills from '../Components/Skills';
 import { MainLayout} from '../styles/Layouts';
-import Resume from '../Components/Resume';
+import Experience from '../Components/Experience';
+import Education from '../Components/Education';
 
 function ResumePage() {
     return (
         <MainLayout>
+            <Experience />
             <Skills />
-            <Resume />
+            <Education />
         </MainLayout>
     )
 }

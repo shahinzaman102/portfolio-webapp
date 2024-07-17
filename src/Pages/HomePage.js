@@ -14,17 +14,14 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Shahin Zaman</span></h1>
                 <p>
-                    I design and code beautifully simple things from scratch, and enjoy bringing ideas to life in the browser.
+                    Driven by a passion for IoT and expertise in IoT device driver development, with a year of experience in IoT technology. Aiming to excel in the telecommunications industry, where IoT is pivotal.
                 </p>
                 <div className="icons">
-                    <a href="https://github.com/hubshahin" target="_blank" className="icon i-github">
+                    <a href="https://github.com/shahinzaman1o2" target="_blank" className="icon i-github">
                         <GithubIcon />
                     </a>
                     <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" className="icon i-youtube">
                         <LinkedInIcon />
-                    </a>
-                    <a href="" target="_blank" className="icon i-facebook">
-                        <FacebookIcon />
                     </a>
                 </div>
             </div>

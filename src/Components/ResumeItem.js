@@ -1,7 +1,8 @@
-import React from 'react'
+// ResumeItem.js
+import React from 'react';
 import styled from 'styled-components';
 
-function ResumeItem({ year, title, subTitle, text }) {
+function ResumeItem({ year, title, subTitle, text, skills }) {
     return (
         <ResumeItemStyled>
             <div className="left-content">
@@ -11,6 +12,13 @@ function ResumeItem({ year, title, subTitle, text }) {
                 <h5>{title}</h5>
                 <h6>{subTitle}</h6>
                 <p>{text}</p>
+                {skills && (
+                    <div className="skills">
+                        <span className="skills-label">Skills :</span> {skills.map((skill, index) => (
+                            <span className="skill" key={index}>{skill}</span>
+                        ))}
+                    </div>
+                )}
             </div>
         </ResumeItemStyled>
     )
@@ -18,6 +26,10 @@ function ResumeItem({ year, title, subTitle, text }) {
 
 const ResumeItemStyled = styled.div`
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+
     @media screen and (max-width: 421px){
         p, h5, h6{
             font-size: 80%;
@@ -27,45 +39,53 @@ const ResumeItemStyled = styled.div`
         padding-bottom: 3rem;
     }
     .left-content{
-        width: 50%;
+        width: 30%;
         padding-left: 20px;
         position: relative;
-        &::before{
-            content: "";
-            position: absolute;
-            left: -10px;
-            top: 5px;
-            height: 15px;
-            width: 15px;
-            border-radius: 50%;
-            border: 2px solid var(--border-color);
-            background-color: var(--background-dark-color);
-        }
+        flex-shrink: 0;
         p{
             display: inline-block;
+            margin-bottom: 0;
         }
     }
     .right-content{
-        padding-left: 5rem;
+        width: 70%;
+        padding-left: 2rem;
         position: relative;
-        &::before{
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 15px;
-            height: 2px;
-            width: 3rem;
-            background-color: var(--border-color);
-        }
+        flex-shrink: 1;
         h5{
-            color: var(--primary-color);
+            color: var(--primary-color); /* Keep title color */
             font-size: 2rem;
             padding-bottom: .4rem;
+            margin-top: 0;
         }
         h6{
             padding-bottom: .6rem;
             font-size: 1.5rem;
+            margin-top: 0;
+        }
+        p{
+            word-wrap: break-word;
+            margin-top: 0;
+        }
+        .skills {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap; /* Allow skills to wrap to the next line */
+            .skills-label {
+                font-weight: bold; /* Make Skills : label bold */
+                margin-right: 0.5rem; /* Adjust spacing */
+            }
+            .skill {
+                background-color: #f0f0f0; /* Example background color */
+                padding: 0.2rem 0.5rem;
+                border-radius: 4px;
+                margin: 0.2rem 0.5rem 0 0; /* Adjust margins to ensure proper spacing */
+                font-size: 0.9rem;
+                white-space: nowrap; /* Prevent line breaks within skill items */
+            }
         }
     }
 `;
+
 export default ResumeItem;

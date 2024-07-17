@@ -11,7 +11,7 @@ const blogs = [
     },
     {
         id: 2,
-        title: <a href="https://blog-website-hazel.vercel.app" target="_blank">20+ informal blogs out there (about important topics related to Web-Engineering) in my blogging site written by me - Shahin Zaman</a>,
+        title: <a href="https://blog-website-hazel.vercel.app" target="_blank">25+ informal blogs can be found there, that cover the important topics from web engineering.</a>,
         date: '22',
         month: 'February',
         image: blog2
