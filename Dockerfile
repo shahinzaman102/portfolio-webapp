@@ -1,19 +1,23 @@
+# Use the official Node.js 14 image
 FROM node:14
 
-# Create app directory
+# Set the working directory
 WORKDIR /usr/src/app
 
-# Install app dependencies
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
+# Install dependencies
 RUN npm install
 
-# Copy app source code
+# Copy the rest of the application code
 COPY . .
 
-# Build the app
+# Build the React application
 RUN npm run build
 
-# Expose the port and start the application
-EXPOSE 3000
-CMD ["npx", "serve", "-s", "build"]
+# Install serve to serve the static files
+RUN npm install -g serve
+
+# Command to run the app
+CMD ["serve", "-s", "build"]
