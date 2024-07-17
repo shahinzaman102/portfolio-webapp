@@ -11,6 +11,9 @@ RUN npm install
 # Copy app source code
 COPY . .
 
-# Expose port and start the application
+# Build the app
+RUN npm run build
+
+# Expose the port and start the application
 EXPOSE 3000
-CMD [ "npm", "start" ]
+CMD ["npx", "serve", "-s", "build"]
