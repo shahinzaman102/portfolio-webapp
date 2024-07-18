@@ -56,6 +56,11 @@ function Skills() {
                         text={'60%'}
                     />
                     <ProgressBar
+                        title={'Software Testing'}
+                        width={'15%'}
+                        text={'15%'}
+                    />
+                    <ProgressBar
                         title={'Backend Development'}
                         width={'40%'}
                         text={'40%'}
