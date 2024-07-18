@@ -1,5 +1,4 @@
-import { Link } from '@material-ui/core';
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import resume from '../img/resume.jpg';
 import PrimaryButton from './PrimaryButton';
@@ -19,28 +18,25 @@ function ImageSection() {
                     <div className="info-title">
                         <p>Full Name</p>
                         <p>Age</p>
-                        <p>Nationality </p>
-                        <p>English Proficiency </p>
+                        <p>Nationality</p>
+                        <p>English Proficiency</p>
                         <p>Location</p>
-                        {/* <p>Service</p> */}
                     </div>
                     <div className="info">
                         <p>: Shahin Zaman</p>
                         <p>: 26</p>
-                        <p>: Bangladeshi </p>
+                        <p>: Bangladeshi</p>
                         <p>: Fluent</p>
                         <p>: Dhaka, Bangladesh</p>
-                        {/* <p>: Freelance</p> */}
                     </div>
                 </div>
-                <a class="download" href="/files/resume.pdf" target="_blank">
+                <a className="download" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
                     <PrimaryButton title={'Download Resume'} />
                 </a>
             </div>
         </ImageSectionStyled>
-    )
+    );
 }
-
 
 const ImageSectionStyled = styled.div`
     margin-top: 5rem;
@@ -87,4 +83,5 @@ const ImageSectionStyled = styled.div`
         }
     }
 `;
+
 export default ImageSection;

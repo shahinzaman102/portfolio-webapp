@@ -1,4 +1,7 @@
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
+// import { loadFull } from "tsparticles";
+import { tsParticles } from 'tsparticles';
+import Particles from "react-tsparticles";
 
 import React from 'react';
 

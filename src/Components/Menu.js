@@ -1,39 +1,42 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-import GitHub from '@material-ui/icons/GitHub';
-// import Pinterest from '@material-ui/icons/Pinterest';
-import PublicIcon from '@material-ui/icons/Public';
+// import GitHub from '@material-ui/icons/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
+// import PublicIcon from '@material-ui/icons/Public';
+import PublicIcon from '@mui/icons-material/Public';
 
 function Menu({ menuItem }) {
     return (
         <MenuItemStyled >
             {
                 menuItem.map((item) => {
-                    return <div className="grid-item" key={item.id}>
-                        <div className="portfolio-content">
-                            <div className="portfolio-image">
-                                <img src={item.image} alt="" />
-                                <ul>
-                                    <li>
-                                        <a href={item.link1} target="_blank">
-                                            <GitHub />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={item.link2} target="_blank">
-                                            <PublicIcon />
-                                        </a>
-                                    </li>
-                                </ul>
+                    return (
+                        <div className="grid-item" key={item.id}>
+                            <div className="portfolio-content">
+                                <div className="portfolio-image">
+                                    <img src={item.image} alt="" />
+                                    <ul>
+                                        <li>
+                                            <a href={item.link1} target="_blank" rel="noopener noreferrer">
+                                                <GitHubIcon />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={item.link2} target="_blank" rel="noopener noreferrer">
+                                                <PublicIcon />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h6>{item.title}</h6>
+                                <p>{item.text}</p>
                             </div>
-                            <h6>{item.title}</h6>
-                            <p>{item.text}</p>
                         </div>
-                    </div>
+                    );
                 })
             }
         </MenuItemStyled>
-    )
+    );
 }
 
 const MenuItemStyled = styled.div`
@@ -67,28 +70,27 @@ const MenuItemStyled = styled.div`
                 top: 40%;
                 opacity: 0;
                 li{
-                        background-color: var(--border-color);
+                    background-color: var(--border-color);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    border-radius: 50%;
+                    width: 3rem;
+                    height: 3rem;
+                    margin: 0 .5rem;
+                    transition: all .4s ease-in-out;
+                    &:hover{
+                        background-color: var(--primary-color);
+                    }
+                    a{
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        padding: 1rem;
-                        border-radius: 50%;
-                        width: 3rem;
-                        height: 3rem;
-                        margin: 0 .5rem;
                         transition: all .4s ease-in-out;
-                        &:hover{
-                            background-color: var(--primary-color);
-                        }
-                        a{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            transition: all .4s ease-in-out;
-                        }
                     }
+                }
             }
-
             .portfolio-image{
                 &::before{
                     content: "";
@@ -121,7 +123,6 @@ const MenuItemStyled = styled.div`
                             transition: all .4s ease-in-out;
                         }
                     }
-
                     li:hover{
                         svg{
                             color: var(--white-color);
@@ -132,12 +133,11 @@ const MenuItemStyled = styled.div`
                     }
                 }
                 &::before{
-                    height: calc(100% - 32%) ;
+                    height: calc(100% - 32%);
                     width: calc(100% - 4%);
                     background-color: white;
                     opacity: 0.9;
                     transform-origin: left;
-                    
                     transition: all .4s ease-in-out;
                 }
             }

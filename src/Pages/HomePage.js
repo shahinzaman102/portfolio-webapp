@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-import GithubIcon from '@material-ui/icons/GitHub';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -18,15 +18,15 @@ function HomePage() {
                 </p>
                 <div className="icons">
                     <a href="https://github.com/shahinzaman1o2" target="_blank" className="icon i-github">
-                        <GithubIcon />
+                        <GitHubIcon />
                     </a>
-                    <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" className="icon i-youtube">
+                    <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" className="icon i-linkedin">
                         <LinkedInIcon />
                     </a>
                 </div>
             </div>
         </HomePageStyled>
-    )
+    );
 }
 
 const HomePageStyled = styled.header`
@@ -66,10 +66,10 @@ const HomePageStyled = styled.header`
                 }
             }
 
-            .i-youtube{
+            .i-linkedin{
                 &:hover{
-                    border: 2px solid red;
-                    color: red;
+                    border: 2px solid #0077B5;
+                    color: #0077B5;
                 }
             }
             .i-github{

@@ -1,6 +1,5 @@
-
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import { Routes, Route } from 'react-router-dom';
 import Sidebar from "./Components/Sidebar";
 import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
@@ -9,12 +8,10 @@ import ResumePage from './Pages/ResumePage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
-import Brightness4Icon from '@material-ui/icons/Brightness4';
-import MenuIcon from '@material-ui/icons/Menu';
-import { Route, Switch as Switching } from "react-router";
-import Switch from '@material-ui/core/Switch'
-import { IconButton } from "@material-ui/core";
-
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import MenuIcon from '@mui/icons-material/Menu';
+import Switch from '@mui/material/Switch';
+import { IconButton } from "@mui/material";
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -28,12 +25,12 @@ function App() {
   const themeToggler = () => {
     if (theme === 'light-theme') {
       setTheme('dark-theme');
-      setChecked(false)
+      setChecked(false);
     } else {
       setTheme('light-theme');
-      setChecked(true)
+      setChecked(true);
     }
-  }
+  };
 
   return (
     <div className="App">
@@ -46,12 +43,10 @@ function App() {
           </div>
           <div className="right-content">
             <Switch
-              value=""
               checked={checked}
-              inputProps={{ 'aria-label': '' }}
+              onChange={themeToggler}
+              inputProps={{ 'aria-label': 'controlled' }}
               size="medium"
-              onClick={themeToggler}
-
             />
           </div>
         </div>
@@ -71,27 +66,14 @@ function App() {
           <div className="line-4"></div>
         </div>
 
-        <Switching>
-          <Route path="/" exact>
-            <HomePage />
-          </Route>
-          <Route path="/about" exact>
-            <AboutPage />
-          </Route>
-          <Route path="/resume" exact>
-            <ResumePage />
-          </Route>
-          <Route path="/portfolios" exact>
-            <PortfoliosPage />
-          </Route>
-          <Route path="/blogs" exact>
-            <BlogsPage />
-          </Route>
-          <Route path="/contact" exact>
-            <ContactPage />
-          </Route>
-        </Switching>
-
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/portfolios" element={<PortfoliosPage />} />
+          <Route path="/blogs" element={<BlogsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </MainContentStyled>
     </div>
   );
@@ -101,10 +83,10 @@ const MainContentStyled = styled.main`
   position: relative;
   margin-left: 16.3rem;
   min-height: 100vh;
-  @media screen and (max-width:1200px){
+  @media screen and (max-width: 1200px) {
     margin-left: 0;
   }
-  .lines{
+  .lines {
     position: absolute;
     min-height: 100%;
     width: 100%;
@@ -112,7 +94,7 @@ const MainContentStyled = styled.main`
     justify-content: space-evenly;
     opacity: 0.4;
     z-index: -1;
-    .line-1, .line-2, .line-3, .line-4{
+    .line-1, .line-2, .line-3, .line-4 {
       width: 1px;
       min-height: 100vh;
       background-color: var(--border-color);
