@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.js": "/final-portfolio/static/js/main.20151c36.chunk.js",
+    "main.js.map": "/final-portfolio/static/js/main.20151c36.chunk.js.map",
+    "runtime-main.js": "/final-portfolio/static/js/runtime-main.2b299fc8.js",
+    "runtime-main.js.map": "/final-portfolio/static/js/runtime-main.2b299fc8.js.map",
+    "static/js/2.a721772f.chunk.js": "/final-portfolio/static/js/2.a721772f.chunk.js",
+    "static/js/2.a721772f.chunk.js.map": "/final-portfolio/static/js/2.a721772f.chunk.js.map",
+    "index.html": "/final-portfolio/index.html",
+    "static/js/2.a721772f.chunk.js.LICENSE.txt": "/final-portfolio/static/js/2.a721772f.chunk.js.LICENSE.txt",
+    "static/media/Micro-Backend-golang.538831d9.png": "/final-portfolio/static/media/Micro-Backend-golang.538831d9.png",
+    "static/media/Micro-Backend-mern.10eca57e.png": "/final-portfolio/static/media/Micro-Backend-mern.10eca57e.png",
+    "static/media/airbnb.fde5a379.PNG": "/final-portfolio/static/media/airbnb.fde5a379.PNG",
+    "static/media/amazon-next.03536b83.PNG": "/final-portfolio/static/media/amazon-next.03536b83.PNG",
+    "static/media/amazon.2a38da08.PNG": "/final-portfolio/static/media/amazon.2a38da08.PNG",
+    "static/media/angular_app.c5b8283c.png": "/final-portfolio/static/media/angular_app.c5b8283c.png",
+    "static/media/angular_webshop.5756b0d9.png": "/final-portfolio/static/media/angular_webshop.5756b0d9.png",
+    "static/media/api.4d098aa6.jpeg": "/final-portfolio/static/media/api.4d098aa6.jpeg",
+    "static/media/avatar.353256ab.jpg": "/final-portfolio/static/media/avatar.353256ab.jpg",
+    "static/media/blogs.00c94b25.PNG": "/final-portfolio/static/media/blogs.00c94b25.PNG",
+    "static/media/design.b0dea6a3.svg": "/final-portfolio/static/media/design.b0dea6a3.svg",
+    "static/media/figma.5d822f01.PNG": "/final-portfolio/static/media/figma.5d822f01.PNG",
+    "static/media/iot.01f6a7fd.png": "/final-portfolio/static/media/iot.01f6a7fd.png",
+    "static/media/messenger.826af92e.PNG": "/final-portfolio/static/media/messenger.826af92e.PNG",
+    "static/media/organic_shop.3db56ce1.png": "/final-portfolio/static/media/organic_shop.3db56ce1.png",
+    "static/media/portfolio.ae5165f3.png": "/final-portfolio/static/media/portfolio.ae5165f3.png",
+    "static/media/rest-api-blog.df845f24.png": "/final-portfolio/static/media/rest-api-blog.df845f24.png",
+    "static/media/resume.c4d1e190.jpg": "/final-portfolio/static/media/resume.c4d1e190.jpg",
+    "static/media/resume.fb13063c.PNG": "/final-portfolio/static/media/resume.fb13063c.PNG",
+    "static/media/shopping-cart.3ba1aea9.PNG": "/final-portfolio/static/media/shopping-cart.3ba1aea9.PNG",
+    "static/media/spotify.5fcca8ef.PNG": "/final-portfolio/static/media/spotify.5fcca8ef.PNG",
+    "static/media/todo.bfd55542.jpg": "/final-portfolio/static/media/todo.bfd55542.jpg",
+    "static/media/uber.cd9c3d47.jpg": "/final-portfolio/static/media/uber.cd9c3d47.jpg",
+    "static/media/vue-weightTracker.6576ca62.png": "/final-portfolio/static/media/vue-weightTracker.6576ca62.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b299fc8.js",
+    "static/js/2.a721772f.chunk.js",
+    "static/js/main.20151c36.chunk.js"
+  ]
+}
