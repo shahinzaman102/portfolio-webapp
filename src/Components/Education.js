@@ -7,11 +7,11 @@ import ResumeItem from './ResumeItem';
 function Education() {
     return (
         <ResumeStyled>
-            <Title title={'Educational'} span={'education'} />
+            <Title title={'Education'} span={'education'} />
             <InnerLayout>
-                <div className="resume-content ">
+                <div className="resume-content">
                     <ResumeItem
-                        year={'2018 - 2023'}
+                        year={'2018 - 2024'}
                         title={'BSc in Computer Science & Engineering'}
                         subTitle={'Bangladesh Open University'}
                         text={'Electronic Device and Circuits, Digital Logic Design, Microprocessors and Microcontrollers, Computer Peripherals and Interfacing, Computer Graphics, Operating System, E-commerce, Technical Writing and Seminar, Professional Ethics and Cyber Law, Telecommunication, Structured Programming, Data-Structures, Algorithms, Object Oriented Programming (OOP) etc.'}
@@ -44,6 +44,9 @@ const ResumeStyled = styled.section`
 
     .resume-content{
         border-left: 2px solid var(--border-color);
+        padding-left: 2rem; /* Add padding to left */
+        margin-top: 2rem;
     }
 `;
-export default Education
+
+export default Education;
