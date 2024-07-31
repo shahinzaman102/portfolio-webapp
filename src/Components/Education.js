@@ -20,29 +20,31 @@ function Education() {
                         year={'2014 - 2016'}
                         title={'Higher Secondary School Graduation'}
                         subTitle={'Government Laboratory High School'}
+                        details={'Result: First Class'}
                         text={'Higher Mathematics, Physics, Chemistry, Biology, Information and Communication Technology (ICT) etc.'}
                     />
                     <ResumeItem
                         year={'2005 - 2014'}
                         title={'Secondary School Graduation'}
                         subTitle={'Wazuddin High School'}
+                        details={'Result: First Class'}
                         text={'Higher Mathematics, General Mathematics, Physics, Chemistry, Biology, Social Science, History, Literature etc.'}
                     />
                 </div>
             </InnerLayout>
         </ResumeStyled>
-    )
+    );
 }
 
 const ResumeStyled = styled.section`
-    .small-title{
+    .small-title {
         padding-bottom: 3rem;
     }
-    .u-small-title-margin{
+    .u-small-title-margin {
         margin-top: 4rem;
     }
 
-    .resume-content{
+    .resume-content {
         border-left: 2px solid var(--border-color);
         padding-left: 2rem; /* Add padding to left */
         margin-top: 2rem;
