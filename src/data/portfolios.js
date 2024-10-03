@@ -52,7 +52,7 @@ const portfolios = [
         id: 4,
         category: 'FULLSTACK',
         image: img4,
-        link1: 'https://github.com/shahinzaman1o2/blog-website',
+        link1: 'https://github.com/shahinzaman1o2/blog_website',
         link2: 'https://blog-website-hazel.vercel.app/',
         title: 'Blogging Site',
         text: 'Tools & Techs --> HTML, CSS, JavaScript, Node.js & Firebase'
@@ -189,8 +189,8 @@ const portfolios = [
         image: img19,
         link1: 'https://github.com/shahinzaman1o2/angular_app',
         link2: 'https://angular-app-theta.vercel.app/js_ts-builtin-funcs',
-        title: 'Angular App',
-        text: 'Tools & Techs --> Angular, Angular.js, TypeScript - This frontend app illustrates the variety of Angular features & functions through practical implementation'
+        title: 'Angular Jumpstart',
+        text: 'Tools & Techs --> Angular, Angular.js, TypeScript, Jasmine (Unit Testing) - This app illustrates the fundamental features of Angular through practical implementation'
     },
     {
         id: 20,

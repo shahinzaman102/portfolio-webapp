@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function ResumeItem({ year, title, subTitle, details, text, skills, references }) {
+function ResumeItem({ year, duration, title, subTitle, details, text, skills, references }) {
     return (
         <ResumeItemStyled>
             <div className="left-content">
-                <p>{year}</p>
+                <p>
+                    <span className="year">{year}</span>
+                    {duration && <span className="duration">{duration}</span>}
+                </p>
             </div>
             <div className="right-content">
                 <h5>{title}</h5>
@@ -44,15 +47,25 @@ const ResumeItemStyled = styled.div`
 
     .left-content {
         width: 30%;
-        padding-left: 20px; /* Add padding to left */
+        padding-left: 20px;
         position: relative;
         p {
-            display: inline-block;
+            display: block; /* Make both year and duration block elements */
             margin-bottom: 0;
+        }
+
+        .year {
             font-weight: bold;
-            color: var(--primary-color);
+            color: var(--primary-color); /* Original color for both the date range and duration */
+        }
+
+        .duration {
+            display: block; /* Place the duration on a new line */
+            font-size: 0.85rem; /* Slightly smaller font for the duration */
+            color: var(--primary-color); /* Same color as the year */
         }
     }
+
     .right-content {
         width: 70%;
         padding-left: 2rem;
@@ -66,13 +79,13 @@ const ResumeItemStyled = styled.div`
         .sub-title {
             font-size: 1.2rem;
             color: var(--secondary-color);
-            margin: 0.2rem 0 0.8rem 0; /* Add some spacing between sub-title and text */
+            margin: 0.2rem 0 0.8rem 0;
         }
         .details {
-            font-size: 0.9rem; /* Smaller font size for details */
+            font-size: 0.9rem;
             font-weight: 400;
             color: var(--secondary-color);
-            margin: 0.2rem 0 0.8rem 0; /* Add some spacing between details and text */
+            margin: 0.2rem 0 0.8rem 0;
         }
         p {
             word-wrap: break-word;

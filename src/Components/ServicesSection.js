@@ -15,14 +15,14 @@ function ServicesSection() {
                 <div className="services">
                     <ServiceCard
                         image={design}
-                        title={'IoT & Telecommunications'}
-                        paragraph={'Driven by a passion for IoT and expertise in IoT device driver development, with a year of experience in IoT technology. Aiming to excel in the telecommunications industry, where IoT is pivotal.'}
+                        title={'Software Development'}
+                        paragraph={'Skills : Front-end Development, Back-end Development, Software Testing, Microservices, Cloud Services, Strong knowledge on Web Engineering concepts, Strong knowledge on the concepts of Data Structures & Algorithms'}
                     />
                     <div className="mid-card">
                         <ServiceCard
                             image={design}
-                            title={'Software Development'}
-                            paragraph={'The knowledge and experience in software development ensure effective collaboration with teams, providing confidence in contributing to and communicating about projects within the company.'}
+                            title={'Device Driver Development'}
+                            paragraph={'IoT Device Driver Development - Skills : Golang, JavaScript, SDK, Integration and Testing from the Application Server, Various types LoraWAN Sensors, Communication Technologies such as Radio, NB-IoT, Cellular etc.'}
                         />
                     </div>
                     {/* <ServiceCard

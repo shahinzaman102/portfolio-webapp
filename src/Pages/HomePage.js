@@ -15,7 +15,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Shahin Zaman</span></h1>
                 <p>
-                    Driven by a passion for IoT and expertise in IoT device driver development, with a year of experience in IoT technology. Aiming to excel in the telecommunications industry, where IoT is pivotal.
+                    Passionate about IoT and Cloud Technologies, with a year of experience working on IoT applications and cloud servers. Eager to excel in the telecommunications industry, where these technologies are essential
                 </p>
                 <div className="icons">
                     <a href="https://github.com/shahinzaman1o2" target="_blank" rel="noopener noreferrer" className="icon i-github">

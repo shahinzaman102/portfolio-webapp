@@ -4,12 +4,31 @@ import { InnerLayout } from '../styles/Layouts';
 import Title from '../Components/Title';
 import ResumeItem from '../Components/ResumeItem';
 
+// Helper function to calculate duration
+function calculateDuration(startDate, endDate) {
+    const start = new Date(startDate);
+    const end = endDate ? new Date(endDate) : new Date(); // Use current date if endDate is not provided
+    const totalMonths = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth());
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+
+    // Construct the duration string
+    let duration = '';
+    if (years > 0) {
+        duration += `${years} year${years > 1 ? 's' : ''}`;
+    }
+    if (months > 0) {
+        duration += `${years > 0 ? ' ' : ''}${months} month${months > 1 ? 's' : ''}`;
+    }
+    return duration;
+}
+
 const experiences = [
     {
         company: 'SmartMakers GMBH',
         roles: [
             {
-                year: 'Jul 2023 - Present',
+                year: 'Jul 2023 - Jul 2024',
                 title: 'Werksstudent',
                 details: 'Part-time - Remote',
                 text: 'IoT Device Driver Development',
@@ -74,17 +93,23 @@ function Experience() {
                     {experiences.map((experience, index) => (
                         <div key={index} className="company-group">
                             <h3 className="company-name">{experience.company}</h3>
-                            {experience.roles.map((role, idx) => (
-                                <ResumeItem
-                                    key={idx}
-                                    year={role.year}
-                                    title={role.title}
-                                    details={role.details}
-                                    text={role.text}
-                                    skills={role.skills}
-                                    references={role.references}
-                                />
-                            ))}
+                            {experience.roles.map((role, idx) => {
+                                const [start, end] = role.year.split(' - ');
+                                const duration = calculateDuration(start, end === 'Present' ? null : end); // Handle 'Present' as ongoing
+
+                                return (
+                                    <ResumeItem
+                                        key={idx}
+                                        year={role.year}
+                                        duration={duration} // Pass the calculated duration
+                                        title={role.title}
+                                        details={role.details}
+                                        text={role.text}
+                                        skills={role.skills}
+                                        references={role.references}
+                                    />
+                                );
+                            })}
                         </div>
                     ))}
                 </div>

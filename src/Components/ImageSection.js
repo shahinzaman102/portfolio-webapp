@@ -12,7 +12,7 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Shahin Zaman</span></h4>
                 <p className="paragraph">
-                    Driven by a passion for IoT and expertise in IoT device driver development, with a year of experience in IoT technology. Aiming to excel in the telecommunications industry, where IoT is pivotal.
+                    Passionate about IoT and Cloud Technologies, with a year of experience working on IoT applications and cloud servers. Eager to excel in the telecommunications industry, where these technologies are essential
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -29,8 +29,9 @@ function ImageSection() {
                         <p>: Fluent</p>
                         <p>: Dhaka, Bangladesh</p>
                     </div>
-                </div>
+                </div>                
                 <a className="download" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    {/* <a className="download" rel="noopener noreferrer"> */}
                     <PrimaryButton title={'Download Resume'} />
                 </a>
             </div>
