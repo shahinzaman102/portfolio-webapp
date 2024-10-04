@@ -188,7 +188,7 @@ const portfolios = [
         category: 'FRONTEND',
         image: img19,
         link1: 'https://github.com/shahinzaman1o2/angular_app',
-        link2: 'https://angular-app-theta.vercel.app/js_ts-builtin-funcs',
+        link2: 'https://angular-app-theta.vercel.app',
         title: 'Angular Jumpstart',
         text: 'Tools & Techs --> Angular, Angular.js, TypeScript, Jasmine (Unit Testing) - This app illustrates the fundamental features of Angular through practical implementation'
     },
