@@ -41,6 +41,11 @@ function Skills() {
                         text={'20%'}
                     />
                     <ProgressBar
+                        title={'Data Structures & Algorithms'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
                         title={'Telecommunications'}
                         width={'5%'}
                         text={'5%'}
