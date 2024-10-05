@@ -22,7 +22,7 @@ function ServicesSection() {
                         <ServiceCard
                             image={design}
                             title={'Device Driver Development'}
-                            paragraph={'Skills (Have worked & introduced with) : Golang, JavaScript, SDK, Integration and Testing from the App Server, Gateway, Network Servers (LNS), Various LoraWAN Sensors, Communication techs such as Radio, NB-IoT, Cellular etc.'}
+                            paragraph={'Skills (Have worked & introduced with) : Golang, JavaScript, SDK, Integration and Testing from the App Server, Gateway, Network Servers (LNS), Various LoraWAN Sensors, Communication techs : Radio, Modbus, NB-IoT, Cellular etc.'}
                         />
                     </div>
                     {/* <ServiceCard
