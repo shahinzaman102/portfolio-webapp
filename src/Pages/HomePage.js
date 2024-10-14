@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Particle from '../Components/Particle';
-import FreeCodeCampIcon from '../img/freecodecamp.png'; // Path to your FreeCodeCamp PNG file
-import LeetCodeIcon from '../img/leetcode.png'; // Path to your LeetCode PNG file
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LeetCodeIcon from '../img/leetcode.svg';
+import FreeCodeCampIcon from '../img/freecodecamp.svg';
+import CodeforcesIcon from '../img/codeforces.svg';
 
 function HomePage() {
     return (
@@ -15,20 +16,23 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Shahin Zaman</span></h1>
                 <p>
-                    Passionate about IoT and Cloud Technologies, with a year of experience working on IoT applications and cloud servers. Eager to excel in the telecommunications industry, where these technologies are essential
+                    Passionate about IoT and Cloud Technologies, with a year of experience working on IoT applications and cloud servers. Eager to excel in the telecommunications industry, where these technologies are essential.
                 </p>
                 <div className="icons">
-                    <a href="https://github.com/shahinzaman1o2" target="_blank" rel="noopener noreferrer" className="icon i-github">
-                        <GitHubIcon />
-                    </a>
                     <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
                         <LinkedInIcon />
                     </a>
-                    <a href="https://www.freecodecamp.org/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-freecodecamp">
-                        <img src={FreeCodeCampIcon} alt="FreeCodeCamp" />
+                    <a href="https://github.com/shahinzaman1o2" target="_blank" rel="noopener noreferrer" className="icon i-github">
+                        <GitHubIcon />
                     </a>
                     <a href="https://leetcode.com/u/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-leetcode">
                         <img src={LeetCodeIcon} alt="LeetCode" />
+                    </a>
+                    <a href="https://codeforces.com/profile/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-codeforces">
+                        <img src={CodeforcesIcon} alt="Codeforces" />
+                    </a>
+                    <a href="https://www.freecodecamp.org/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-freecodecamp">
+                        <img src={FreeCodeCampIcon} alt="FreeCodeCamp" />
                     </a>
                 </div>
             </div>
@@ -53,6 +57,7 @@ const HomePageStyled = styled.header`
             display: flex;
             justify-content: center;
             margin-top: 1rem;
+
             .icon {
                 border: 2px solid var(--border-color);
                 display: flex;
@@ -63,49 +68,46 @@ const HomePageStyled = styled.header`
                 cursor: pointer;
                 width: 50px; /* Ensuring the circle size is consistent */
                 height: 50px; /* Ensuring the circle size is consistent */
-                
-                &:hover {
-                    border: 2px solid var(--primary-color);
-                    color: var(--primary-color);
-                }
+
                 &:not(:last-child) {
                     margin-right: 1rem;
                 }
-                
+
                 svg {
                     margin: .5rem;
                 }
+
                 img {
-                    width: 100%;  /* Fill the circle */
-                    height: 100%; /* Fill the circle */
-                    border-radius: 50%; /* Make sure the image is also rounded */
-                    object-fit: cover; /* Ensure the image covers the area */
+                    width: 70%;  /* Slightly smaller size for SVG */
+                    height: 70%;  /* Ensure uniform size for SVG */
+                    object-fit: contain;  /* SVG needs contain to maintain aspect ratio */
                 }
             }
 
-            .i-linkedin {
-                &:hover {
-                    border: 2px solid #0077B5;
-                    color: #0077B5;
-                }
+            /* Hover effects for specific icons */
+            .i-linkedin:hover {
+                border: 2px solid #0077B5;
+                color: #0077B5;
             }
-            .i-github {
-                &:hover {
-                    border: 2px solid #5F4687;
-                    color: #5F4687;
-                }
+
+            .i-github:hover {
+                border: 2px solid #5F4687;
+                color: #5F4687;
             }
-            .i-freecodecamp {
-                &:hover {
-                    border: 2px solid #006400; /* Example green color */
-                    color: #006400;
-                }
+
+            .i-freecodecamp:hover {
+                border: 2px solid #006400; /* FreeCodeCamp brand color */
+                color: #006400;
             }
-            .i-leetcode {
-                &:hover {
-                    border: 2px solid #FFA116; /* LeetCode's brand color */
-                    color: #FFA116;
-                }
+
+            .i-leetcode:hover {
+                border: 2px solid #FFA116; /* LeetCode's brand color */
+                color: #FFA116;
+            }
+
+            .i-codeforces:hover {
+                border: 2px solid #1F8ACB; /* Codeforces brand color */
+                color: #1F8ACB;
             }
         }
     }
