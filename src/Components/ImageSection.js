@@ -30,10 +30,11 @@ function ImageSection() {
                         <p>: Dhaka, Bangladesh</p>
                     </div>
                 </div>                
-                <a className="download" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
-                    {/* <a className="download" rel="noopener noreferrer"> */}
-                    <PrimaryButton title={'Download Resume'} />
-                </a>
+                {/* <a className="download" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer"> */}
+                    <p className="download" rel="noopener noreferrer">
+                        <PrimaryButton title={'Download Resume'} />
+                    </p>
+                {/* </a> */}
             </div>
         </ImageSectionStyled>
     );
