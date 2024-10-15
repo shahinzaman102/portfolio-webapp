@@ -22,7 +22,7 @@ function HomePage() {
                     <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
                         <LinkedInIcon />
                     </a>
-                    <a href="https://github.com/shahinzaman1o2" target="_blank" rel="noopener noreferrer" className="icon i-github">
+                    <a href="https://github.com/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-github">
                         <GitHubIcon />
                     </a>
                     <a href="https://leetcode.com/u/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-leetcode">
