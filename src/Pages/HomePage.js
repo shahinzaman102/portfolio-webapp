@@ -5,7 +5,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LeetCodeIcon from '../img/leetcode.svg';
 import FreeCodeCampIcon from '../img/freecodecamp.svg';
-import CodeforcesIcon from '../img/codeforces.svg';
 
 function HomePage() {
     return (
@@ -27,9 +26,6 @@ function HomePage() {
                     </a>
                     <a href="https://leetcode.com/u/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-leetcode">
                         <img src={LeetCodeIcon} alt="LeetCode" />
-                    </a>
-                    <a href="https://codeforces.com/profile/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-codeforces">
-                        <img src={CodeforcesIcon} alt="Codeforces" />
                     </a>
                     <a href="https://www.freecodecamp.org/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-freecodecamp">
                         <img src={FreeCodeCampIcon} alt="FreeCodeCamp" />
