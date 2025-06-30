@@ -22,7 +22,7 @@ function ContactPage() {
 
         emailjs
             .sendForm(
-                "service_n8hgpr6", "template_lw9ms9q", formRef.current, "user_3LrQOEJHSxzFC1Qs54SSt"
+                "service_d3wxwdg", "template_lw9ms9q", formRef.current, "user_3LrQOEJHSxzFC1Qs54SSt"
             )
             .then(
                 (result) => {
@@ -70,7 +70,7 @@ function ContactPage() {
                         </form>
                     </div>
                     <div className="right-content">
-                        <ContactItem title={'Phone'} icon={phone} cont1={'+880-1729117866'} cont2={''} />
+                        <ContactItem title={'Phone'} icon={phone} /*cont1={'+880-1729117866'} cont2={''}*/ />
                         <ContactItem title={'Email'} icon={email} cont1={'shahinzaman102@gmail.com'} />
                         <ContactItem title={'Address'} icon={location} cont1={'Nabinagar Main Road, Kamrangirchar, Dhaka-1211'} cont2={'Bangladesh'} />
                     </div>

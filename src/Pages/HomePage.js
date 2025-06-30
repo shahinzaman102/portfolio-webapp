@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import Particle from '../Components/Particle';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import GitLabIcon from '../img/gitlab.svg';
 import LeetCodeIcon from '../img/leetcode.svg';
 import FreeCodeCampIcon from '../img/freecodecamp.svg';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function HomePage() {
     return (
@@ -18,17 +20,23 @@ function HomePage() {
                     Passionate about IoT and Cloud Technologies, with a year of experience working on IoT applications and cloud servers. Eager to excel in the telecommunications industry, where these technologies are essential.
                 </p>
                 <div className="icons">
-                    <a href="https://www.linkedin.com/in/shahin-zaman-036148241" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
+                    <a href="https://www.linkedin.com/in/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
                         <LinkedInIcon />
                     </a>
                     <a href="https://github.com/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-github">
                         <GitHubIcon />
+                    </a>
+                    <a href="https://gitlab.com/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-gitlab">
+                        <img src={GitLabIcon} alt="LeetCode" />
                     </a>
                     <a href="https://leetcode.com/u/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-leetcode">
                         <img src={LeetCodeIcon} alt="LeetCode" />
                     </a>
                     <a href="https://www.freecodecamp.org/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-freecodecamp">
                         <img src={FreeCodeCampIcon} alt="FreeCodeCamp" />
+                    </a>
+                    <a href="https://www.youtube.com/@shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-youtube">
+                        <YouTubeIcon />
                     </a>
                 </div>
             </div>
@@ -62,8 +70,8 @@ const HomePageStyled = styled.header`
                 border-radius: 50%;
                 transition: all .4s ease-in-out;
                 cursor: pointer;
-                width: 50px; /* Ensuring the circle size is consistent */
-                height: 50px; /* Ensuring the circle size is consistent */
+                width: 50px;
+                height: 50px;
 
                 &:not(:last-child) {
                     margin-right: 1rem;
@@ -74,36 +82,40 @@ const HomePageStyled = styled.header`
                 }
 
                 img {
-                    width: 70%;  /* Slightly smaller size for SVG */
-                    height: 70%;  /* Ensure uniform size for SVG */
-                    object-fit: contain;  /* SVG needs contain to maintain aspect ratio */
+                    width: 70%;
+                    height: 70%;
+                    object-fit: contain;
                 }
             }
 
-            /* Hover effects for specific icons */
             .i-linkedin:hover {
-                border: 2px solid #0077B5;
-                color: #0077B5;
+                border: 2px solid #0A66C2;
+                color: #0A66C2;
             }
 
             .i-github:hover {
-                border: 2px solid #5F4687;
-                color: #5F4687;
+                border: 2px solid #FFFFFF;
+                color: #FFFFFF;
             }
 
-            .i-freecodecamp:hover {
-                border: 2px solid #006400; /* FreeCodeCamp brand color */
-                color: #006400;
+            .i-gitlab:hover {
+                border: 2px solid #FC6D26;
+                color: #FC6D26;
             }
 
             .i-leetcode:hover {
-                border: 2px solid #FFA116; /* LeetCode's brand color */
+                border: 2px solid #FFA116;
                 color: #FFA116;
             }
 
-            .i-codeforces:hover {
-                border: 2px solid #1F8ACB; /* Codeforces brand color */
-                color: #1F8ACB;
+            .i-freecodecamp:hover {
+                border: 2px solid #006400;
+                color: #006400;
+            }
+
+            .i-youtube:hover {
+                border: 2px solid #FF0000;
+                color: #FF0000;
             }
         }
     }

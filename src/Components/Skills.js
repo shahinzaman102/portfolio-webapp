@@ -37,8 +37,8 @@ function Skills() {
                     />
                     <ProgressBar
                         title={'Python'}
-                        width={'20%'}
-                        text={'20%'}
+                        width={'30%'}
+                        text={'30%'}
                     />
                     <ProgressBar
                         title={'Data Structures & Algorithms'}
@@ -71,14 +71,19 @@ function Skills() {
                         text={'40%'}
                     />
                     <ProgressBar
-                        title={'Cloud Computing'}
-                        width={'15%'}
-                        text={'15%'}
+                        title={'Cloud & DevOps'}
+                        width={'60%'}
+                        text={'60%'}
                     />
                     <ProgressBar
                         title={'Linux'}
-                        width={'50%'}
-                        text={'50%'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'Embedded System'}
+                        width={'20%'}
+                        text={'20%'}
                     />
                 </div>
             </InnerLayout>

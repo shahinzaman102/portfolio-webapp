@@ -46,7 +46,7 @@ const experiences = [
             {
                 year: 'Jul 2022 - Aug 2022',
                 title: 'Freelancer',
-                details: 'Contract - Remote',
+                details: 'Full-time - Remote',
                 text: 'Software Developer - Integrated a RestAPI (OpenAPI) into a Full-stack Admin panel project',
                 skills: ['Problem Solving', 'Debugging', 'JavaScript', 'Node.js', 'Restful API', 'MongoDB', 'React.js'],
                 references: [
@@ -62,7 +62,7 @@ const experiences = [
                 year: 'Apr 2022 - May 2022',
                 title: 'Vocational Salesperson',
                 details: 'Full-time - Onsite',
-                text: 'Vocational Sales Representative (1 month) - in the vacation of Ramadan',
+                text: 'Vocational Sales Representative',
                 skills: ['Teamwork', 'Time Management', 'Discipline'],
                 references: [
                     { url: 'https://apex4u.com/store-locator', description: 'Apex - New Market, Dhaka' },
@@ -73,7 +73,7 @@ const experiences = [
                 year: 'May 2018 - Jun 2018',
                 title: 'Vocational Salesperson',
                 details: 'Full-time - Onsite',
-                text: 'Vocational Sales Representative (1 month) - in the vacation of Ramadan',
+                text: 'Vocational Sales Representative',
                 skills: ['Teamwork', 'Time Management', 'Discipline'],
                 references: [
                     { url: 'https://apex4u.com/store-locator', description: 'Apex - New Market, Dhaka' },
