@@ -183,7 +183,7 @@ const portfolios = [
         link1: 'https://gitlab.com/shahinzaman102/mern-microservice-app',
         link2: 'https://youtu.be/Vb5k1pYGaK8',
         title: 'MERN Microservices App on AWS',
-        text: 'Tools & Techs 🡪 Microservice architecture, NodeJS, Express, REST API, MongoDB, RabbitMQ, TypeScript, Docker, Kubernetes (EKS), Amazon Web Services (AWS), GitLab CI/CD'
+        text: 'Tools & Techs 🡪 Microservice architecture, NodeJS, Express, REST API, MongoDB, RabbitMQ, TypeScript, Docker, Kubernetes (EKS), Amazon Web Services (AWS), Python, GitLab CI/CD'
     },
     {
         id: 19,
@@ -192,7 +192,7 @@ const portfolios = [
         link1: 'https://gitlab.com/shahinzaman102/go-microservice-app',
         link2: 'https://youtu.be/gueBhoP4dRs',
         title: 'Go Microservices App on GCP',
-        text: 'Tools & Techs 🡪 Microservice Architecture, Golang, REST API, RPC & gRPC, RabbitMQ, PostgreSQL, MongoDB, Docker, Kubernetes (GKE), Terraform, Google Cloud Platform (GCP), GitLab CI/CD, Prometheus & Grafana (Monitoring), HPA Autoscaling'
+        text: 'Tools & Techs 🡪 Microservice Architecture, Golang, REST API, RPC & gRPC, RabbitMQ, PostgreSQL, MongoDB, Docker, Kubernetes (GKE), Terraform, Google Cloud Platform (GCP), Python, GitLab CI/CD, Prometheus & Grafana (Monitoring), HPA Autoscaling'
     },
     {
         id: 20,
@@ -201,7 +201,7 @@ const portfolios = [
         link1: 'https://gitlab.com/shahinzaman102/on-prem-go-microservice-app',
         link2: 'https://youtu.be/Nh4DuGKbofA',
         title: 'Go + MERN Microservices App (On-Premises)',
-        text: 'Tools & Techs 🡪 Linux (Ubuntu), Docker, Kubernetes (Minikube), GitLab CI/CD, Cloudflare - [Projects used: 1. Go Microservices App on GCP, 2. MERN Microservices App on AWS]'
+        text: 'Tools & Techs 🡪 Linux (Ubuntu), Docker, Kubernetes (Minikube), Python, GitLab CI/CD, Cloudflare - [Projects used: 1. Go Microservices App on GCP, 2. MERN Microservices App on AWS]'
     },
     {
         id: 21,
