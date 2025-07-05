@@ -183,7 +183,7 @@ const portfolios = [
         link1: 'https://gitlab.com/shahinzaman102/mern-microservice-app',
         link2: 'https://youtu.be/Vb5k1pYGaK8',
         title: 'MERN Microservices App on AWS',
-        text: 'Tools & Techs 🡪 Microservice architecture, NodeJS, Express, REST API, MongoDB, RabbitMQ, TypeScript, Docker, Kubernetes (EKS), Amazon Web Services (AWS), Python, GitLab CI/CD'
+        text: 'Tools & Techs 🡪 Microservice architecture, NodeJS, Express, REST API, MongoDB, RabbitMQ, TypeScript, Docker, Kubernetes (EKS), Terraform, Amazon Web Services (AWS), Python, GitLab CI/CD'
     },
     {
         id: 19,
