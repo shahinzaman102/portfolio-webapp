@@ -16,13 +16,13 @@ function ServicesSection() {
                     <ServiceCard
                         image={design}
                         title={'Software Development'}
-                        paragraph={'Skills : Front-end Development, Back-end Development, Software Testing, Microservices, Cloud & DevOps, Linux, Strong knowledge on Web Engineering concepts, Strong knowledge on the concepts of Data Structures & Algorithms.'}
+                        paragraph={'Skills : Front-end Development, UX/UI, Back-end, Testing, Microservices, Cloud & DevOps, Linux. - Strong understanding of Web Engineering principles, along with in-depth knowledge of Data Structures & Algorithms.'}
                     />
                     <div className="mid-card">
                         <ServiceCard
                             image={design}
                             title={'Device Driver Development'}
-                            paragraph={'Skills (Have worked & introduced with) : Golang, JavaScript, Python, SDK, Integration and Testing from the App Server, Gateway, Network Servers (LNS), Various LoraWAN Sensors, Communication techs : Radio, Modbus, NB-IoT, Cellular etc.'}
+                            paragraph={'Skills: Go-based Driver Development. - Also have worked and introduced with : JavaScript, Python, SDKs, App Server, Gateway, Network Servers (LNS), LoRaWAN Sensors, and communication techs like Radio, Modbus, NB-IoT, and Cellular etc.'}
                         />
                     </div>
                     {/* <ServiceCard

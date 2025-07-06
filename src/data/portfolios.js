@@ -210,7 +210,7 @@ const portfolios = [
         link1: 'https://github.com/shahinzaman1o2/iot-based-light-intensity-monitoring',
         link2: 'https://youtu.be/KmeZ9JOwmyQ',
         title: 'Wi-Fi-Based IoT Project',
-        text: 'Tools & Techs 🡪 NodeMCU ESP8266 WiFi Microcontroller Module, LDR Sensor Module, Arduino IDE, Adafruit IO, Firebase Realtime Database, Internet of Things (IoT)'
+        text: 'Tools & Techs 🡪 NodeMCU ESP8266 WiFi Microcontroller Module, LDR Sensor Module, Arduino IDE, MQTT, Adafruit IO, Firebase Realtime Database, Internet of Things (IoT)'
     },
 ]
 

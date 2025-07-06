@@ -21,7 +21,7 @@ function Skills() {
                         text={'25%'}
                     />
                     <ProgressBar
-                        title={'Device Driver Development'}
+                        title={'Device Driver Development (Go)'}
                         width={'60%'}
                         text={'60%'}
                     />

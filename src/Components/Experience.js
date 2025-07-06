@@ -32,7 +32,7 @@ const experiences = [
                 title: 'Werksstudent',
                 details: 'Part-time - Remote',
                 text: 'IoT Device Driver Development',
-                skills: ['Teamwork', 'Problem Solving', 'Internet of Things', 'Driver Development', 'Go', 'JavaScript', 'Python'],
+                skills: ['Teamwork', 'Problem Solving', 'Internet of Things', 'Driver Development (Go)', 'Go', 'JavaScript', 'Python'],
                 references: [
                     { url: 'https://smartmakers.io', description: '' },
                     { url: 'https://www.linkedin.com/company/smartmakers', description: '' }
