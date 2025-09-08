@@ -16,7 +16,7 @@ function ServicesSection() {
                     <ServiceCard
                         image={design}
                         title={'Software Development'}
-                        paragraph={'Skills : Front-end Development, UX/UI, Back-end, Testing, Microservices, Cloud & DevOps, Linux. - Strong understanding of Web Engineering principles, along with in-depth knowledge of Data Structures & Algorithms.'}
+                        paragraph={'Skills : UX/UI, Front-end Dev, Back-end Dev, Testing, Debugging, Microservices, Cloud & DevOps, Linux. - Strong understanding of Web Engineering principles, along with in-depth knowledge of Data Structures & Algorithms.'}
                     />
                     <div className="mid-card">
                         <ServiceCard

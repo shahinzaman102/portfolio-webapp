@@ -21,7 +21,17 @@ function Skills() {
                         text={'25%'}
                     />
                     <ProgressBar
-                        title={'Device Driver Development (Go)'}
+                        title={'IoT Device Driver Development'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'Data Structures & Algorithms'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'Debugging'}
                         width={'60%'}
                         text={'60%'}
                     />
@@ -41,11 +51,6 @@ function Skills() {
                         text={'30%'}
                     />
                     <ProgressBar
-                        title={'Data Structures & Algorithms'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
                         title={'Telecommunications'}
                         width={'5%'}
                         text={'5%'}
@@ -61,14 +66,14 @@ function Skills() {
                         text={'60%'}
                     />
                     <ProgressBar
+                        title={'Backend Development'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
                         title={'Software Testing'}
                         width={'15%'}
                         text={'15%'}
-                    />
-                    <ProgressBar
-                        title={'Backend Development'}
-                        width={'40%'}
-                        text={'40%'}
                     />
                     <ProgressBar
                         title={'Cloud & DevOps'}
