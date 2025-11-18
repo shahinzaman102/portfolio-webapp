@@ -16,16 +16,6 @@ function Skills() {
                         text={'70%'}
                     />
                     <ProgressBar
-                        title={'IoT (Internet of Things)'}
-                        width={'25%'}
-                        text={'25%'}
-                    />
-                    <ProgressBar
-                        title={'IoT Device Driver Development'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
                         title={'Data Structures & Algorithms'}
                         width={'60%'}
                         text={'60%'}
@@ -51,9 +41,9 @@ function Skills() {
                         text={'30%'}
                     />
                     <ProgressBar
-                        title={'Telecommunications'}
-                        width={'5%'}
-                        text={'5%'}
+                        title={'C/C++'}
+                        width={'60%'}
+                        text={'60%'}
                     />
                     <ProgressBar
                         title={'UX/UI Design'}
@@ -89,6 +79,16 @@ function Skills() {
                         title={'Embedded System'}
                         width={'20%'}
                         text={'20%'}
+                    />
+                    <ProgressBar
+                        title={'IoT Device Driver Development'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
+                        title={'IoT (Internet of Things)'}
+                        width={'25%'}
+                        text={'25%'}
                     />
                 </div>
             </InnerLayout>

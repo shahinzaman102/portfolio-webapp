@@ -14,7 +14,7 @@ function Education() {
                         year={'2018 - 2024'}
                         title={'BSc in Computer Science & Engineering'}
                         subTitle={'Bangladesh Open University'}
-                        text={'Electronic Device and Circuits, Digital Logic Design, Microprocessors and Microcontrollers, Computer Peripherals and Interfacing, Computer Graphics, Operating System, E-commerce, Technical Writing and Seminar, Professional Ethics and Cyber Law, Telecommunication, Structured Programming (C), Data-Structures, Algorithms, Object Oriented Programming (Java) etc.'}
+                        text={'Structured Programming (C), Data-Structures, Algorithms, Object Oriented Programming (Java), Operating System, Computer Graphics, Microprocessors and Microcontrollers, Digital Logic Design, Computer Peripherals and Interfacing, E-commerce, Telecommunication, Electronic Device and Circuits, Technical Writing and Seminar, Professional Ethics and Cyber Law etc.'}
                     />
                     <ResumeItem
                         year={'2014 - 2016'}

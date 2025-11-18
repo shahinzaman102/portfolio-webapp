@@ -32,7 +32,7 @@ const experiences = [
                 title: 'Werksstudent',
                 details: 'Part-time - Remote',
                 text: 'IoT Device Driver Development',
-                skills: ['Teamwork', 'Problem Solving', 'Internet of Things', 'Driver Development (Go)', 'Go', 'JavaScript', 'Python'],
+                skills: ['Teamwork', 'Problem Solving', 'Go', 'JavaScript', 'Python', 'Driver Development (Go)', 'Internet of Things'],
                 references: [
                     { url: 'https://smartmakers.io', description: '' },
                     { url: 'https://www.linkedin.com/company/smartmakers', description: '' }
@@ -48,7 +48,7 @@ const experiences = [
                 title: 'Freelancer',
                 details: 'Full-time - Remote',
                 text: 'Software Developer - Integrated a RestAPI (OpenAPI) into a Full-stack Admin panel project',
-                skills: ['Problem Solving', 'Debugging', 'JavaScript', 'Node.js', 'Restful API', 'MongoDB', 'React.js'],
+                skills: ['Problem Solving', 'Debugging', 'JavaScript', 'Rest API', 'Node.js', 'React.js', 'MongoDB'],
                 references: [
                     { url: 'https://www.upwork.com/freelancers/~01fc9a88110438bd7e?viewMode=1', description: '' }
                 ]

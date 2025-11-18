@@ -17,7 +17,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Shahin Zaman</span></h1>
                 <p>
-                    Passionate about IoT and Cloud Technologies, with a year of experience working on IoT applications and cloud servers. Eager to excel in the telecommunications industry, where these technologies are essential.
+                    Passionate & Determined about Software Development, focused on leveraging foundational knowledge to engineer efficient applications. Dedicated to continuous learning and delivering clean, impactful code as a collaborative team member.
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
