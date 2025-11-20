@@ -41,14 +41,9 @@ function Skills() {
                         text={'30%'}
                     />
                     <ProgressBar
-                        title={'C/C++'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
                         title={'UX/UI Design'}
-                        width={'20%'}
-                        text={'20%'}
+                        width={'25%'}
+                        text={'25%'}
                     />
                     <ProgressBar
                         title={'Frontend development'}
@@ -61,9 +56,14 @@ function Skills() {
                         text={'60%'}
                     />
                     <ProgressBar
+                        title={'Software Development'}
+                        width={'60%'}
+                        text={'60%'}
+                    />
+                    <ProgressBar
                         title={'Software Testing'}
-                        width={'15%'}
-                        text={'15%'}
+                        width={'25%'}
+                        text={'25%'}
                     />
                     <ProgressBar
                         title={'Cloud & DevOps'}
@@ -77,8 +77,8 @@ function Skills() {
                     />
                     <ProgressBar
                         title={'Embedded System'}
-                        width={'20%'}
-                        text={'20%'}
+                        width={'25%'}
+                        text={'25%'}
                     />
                     <ProgressBar
                         title={'IoT Device Driver Development'}
