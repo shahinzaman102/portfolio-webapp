@@ -20,7 +20,7 @@ import img19 from '../img/portImages/mern-aws.jpg';
 import img20 from '../img/portImages/go-gcp.jpg';
 import img21 from '../img/portImages/on-prem.jpg';
 import img22 from '../img/portImages/iot.png';
-
+import img23 from '../img/portImages/zypher_cli.PNG';
 
 const portfolios = [
     {
@@ -220,6 +220,15 @@ const portfolios = [
         link2: 'https://youtu.be/KmeZ9JOwmyQ',
         title: 'Wi-Fi-Based IoT Project',
         text: 'Tools & Techs 🡪 NodeMCU ESP8266 WiFi Microcontroller Module, LDR Sensor Module, Arduino IDE, MQTT, Adafruit IO, Firebase Realtime Database, Internet of Things (IoT)'
+    },
+    {
+        id: 23,
+        category: 'GEN AI',
+        image: img23,
+        link1: 'https://github.com/shahinzaman102/ZypherMindCLI',
+        link2: 'https://drive.google.com/file/d/1d2I1_PN2ZHi9uO6ko7iracE3rqHka965/view?usp=sharing',
+        title: 'ZypherMindCLI – Gemini-Powered AI Agent (CLI)',
+        text: 'Tools & Techs 🡪 Deno 2.0+, Gemini API (Text Generation & Reasoning), Firecrawl MCP, TypeScript, Environment-Based Config, Streaming CLI Agent Framework (Zypher)'
     },
 ]
 
