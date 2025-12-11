@@ -29,7 +29,7 @@ const experiences = [
         roles: [
             {
                 year: 'Jul 2023 - Jul 2024',
-                title: 'Werksstudent',
+                title: 'Working Student',
                 details: 'Part-time - Remote',
                 text: 'IoT Device Driver Development',
                 skills: ['Teamwork', 'Problem Solving', 'Go', 'JavaScript', 'Python', 'Driver Development (Go)', 'Internet of Things'],
@@ -45,10 +45,10 @@ const experiences = [
         roles: [
             {
                 year: 'Jul 2022 - Aug 2022',
-                title: 'Freelancer',
+                title: 'Freelance Software Developer',
                 details: 'Full-time - Remote',
-                text: 'Software Developer - Integrated a RestAPI (OpenAPI) into a Full-stack Admin panel project',
-                skills: ['Problem Solving', 'Debugging', 'JavaScript', 'Rest API', 'Node.js', 'React.js', 'MongoDB'],
+                text: 'REST API (OpenAPI) Integration for Full-Stack Admin Panel',
+                skills: ['Problem Solving', 'Debugging', 'Rest API', 'JavaScript', 'Node.js', 'React.js', 'MongoDB'],
                 references: [
                     { url: 'https://www.upwork.com/freelancers/~01fc9a88110438bd7e?viewMode=1', description: '' }
                 ]

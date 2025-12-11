@@ -180,7 +180,7 @@ const portfolios = [
         id: 18,
         category: 'FRONTEND',
         image: img18,
-        link1: 'https://github.com/shahinzaman102/angular_jumpstart',
+        link1: 'https://github.com/shahinzaman102/Angular_JumpStart',
         link2: 'https://angular-app-theta.vercel.app',
         title: 'Angular JumpStart',
         text: 'Tools & Techs 🡪 Angular, Angular.js, TypeScript, Jasmine (Unit Testing) - This app illustrates the fundamental features of Angular through practical implementation'
