@@ -12,7 +12,7 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Shahin Zaman</span></h4>
                 <p className="paragraph">
-                    Passionate & Determined about Software Development, focused on leveraging foundational knowledge to engineer efficient applications. Dedicated to continuous learning and delivering clean, impactful code as a collaborative team member.
+                    Passionate software developer with strong fundamentals, focused on clean, efficient code and effective collaboration.
                 </p>
                 <div className="about-info">
                     <div className="info-title">

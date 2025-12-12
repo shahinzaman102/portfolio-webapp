@@ -17,7 +17,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Shahin Zaman</span></h1>
                 <p>
-                    Passionate & Determined about Software Development, focused on leveraging foundational knowledge to engineer efficient applications. Dedicated to continuous learning and delivering clean, impactful code as a collaborative team member.
+                    Passionate software developer with strong fundamentals, focused on clean, efficient code and effective collaboration.
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
