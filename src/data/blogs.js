@@ -1,5 +1,5 @@
 import blog1 from '../img/blogs/rest-api-blog.png';
-import blog2 from '../img/blogs/blogs.PNG';
+// import blog2 from '../img/blogs/blogs.PNG';
 
 const blogs = [
     {

@@ -4,8 +4,8 @@ import Particle from '../Components/Particle';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import GitLabIcon from '../img/gitlab.svg';
-import LeetCodeIcon from '../img/leetcode.svg';
-import FreeCodeCampIcon from '../img/freecodecamp.svg';
+// import LeetCodeIcon from '../img/leetcode.svg';
+// import FreeCodeCampIcon from '../img/freecodecamp.svg';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function HomePage() {
