@@ -11,82 +11,57 @@ function Skills() {
             <InnerLayout>
                 <div className="skills">
                     <ProgressBar
-                        title={'Problem Solving'}
-                        width={'70%'}
-                        text={'70%'}
-                    />
-                    <ProgressBar
-                        title={'Data Structures & Algorithms'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Debugging'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Go'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'JavaScript'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Python'}
-                        width={'30%'}
-                        text={'30%'}
-                    />
-                    <ProgressBar
-                        title={'UX/UI Design'}
-                        width={'25%'}
-                        text={'25%'}
-                    />
-                    <ProgressBar
-                        title={'Frontend development'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Backend Development'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Software Development'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Software Testing'}
-                        width={'25%'}
-                        text={'25%'}
-                    />
-                    <ProgressBar
-                        title={'Cloud & DevOps'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Linux'}
-                        width={'60%'}
-                        text={'60%'}
-                    />
-                    <ProgressBar
-                        title={'Embedded System'}
+                        title={'IoT (Internet of Things)'}
                         width={'25%'}
                         text={'25%'}
                     />
                     <ProgressBar
                         title={'IoT Device Driver Development'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Software Development'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Cloud & DevOps'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Linux'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Problem Solving'}
                         width={'60%'}
                         text={'60%'}
                     />
                     <ProgressBar
-                        title={'IoT (Internet of Things)'}
+                        title={'Data Structures & Algorithms'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Debugging'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Go'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'JavaScript'}
+                        width={'50%'}
+                        text={'50%'}
+                    />
+                    <ProgressBar
+                        title={'Python'}
                         width={'25%'}
                         text={'25%'}
                     />

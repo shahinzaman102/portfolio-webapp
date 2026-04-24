@@ -11,24 +11,24 @@ function Education() {
             <InnerLayout>
                 <div className="resume-content">
                     <ResumeItem
-                        year={'2018 - 2024'}
+                        year={'2018 - 2026'}
                         title={'BSc in Computer Science & Engineering'}
                         subTitle={'Bangladesh Open University'}
-                        text={'Structured Programming (C), Data-Structures, Algorithms, Object Oriented Programming (Java/C++), Operating System, Computer Graphics, Microprocessors and Microcontrollers, Digital Logic Design, Computer Peripherals and Interfacing, E-commerce, Telecommunication, Electronic Device and Circuits, Technical Writing and Seminar, Professional Ethics and Cyber Law etc.'}
+                        text={'Telecommunication, Structured Programming (C), Data-Structures, Algorithms, OOP (Java/C++), Operating System, Electronic Device and Circuits, Digital Logic Design, E-commerce, Technical Writing and Seminar, Professional Ethics and Cyber Law etc.'}
                     />
                     <ResumeItem
                         year={'2014 - 2016'}
                         title={'Higher Secondary School Graduation'}
                         subTitle={'Government Laboratory High School'}
                         details={'Result: First Class'}
-                        text={'Higher Mathematics, Physics, Chemistry, Biology, Information and Communication Technology (ICT) etc.'}
+                        text={'Information and Communication Technology (ICT), Physics, Chemistry, Biology, Higher Mathematics etc.'}
                     />
                     <ResumeItem
                         year={'2005 - 2014'}
                         title={'Secondary School Graduation'}
                         subTitle={'Wazuddin High School'}
                         details={'Result: First Class'}
-                        text={'Higher Mathematics, General Mathematics, Physics, Chemistry, Biology, Social Science, History, Literature etc.'}
+                        text={'Physics, Chemistry, General Mathematics, Biology, Higher Mathematics, History etc.'}
                     />
                 </div>
             </InnerLayout>

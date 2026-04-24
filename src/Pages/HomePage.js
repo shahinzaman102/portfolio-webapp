@@ -17,7 +17,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Shahin Zaman</span></h1>
                 <p>
-                    Passionate software developer with strong fundamentals, focused on clean, efficient code and effective collaboration.
+                    Passionate software developer focused on clean code and collaboration, driven by IoT
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-linkedin">
@@ -28,12 +28,6 @@ function HomePage() {
                     </a>
                     <a href="https://gitlab.com/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-gitlab">
                         <img src={GitLabIcon} alt="LeetCode" />
-                    </a>
-                    <a href="https://leetcode.com/u/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-leetcode">
-                        <img src={LeetCodeIcon} alt="LeetCode" />
-                    </a>
-                    <a href="https://www.freecodecamp.org/shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-freecodecamp">
-                        <img src={FreeCodeCampIcon} alt="FreeCodeCamp" />
                     </a>
                     <a href="https://www.youtube.com/@shahinzaman102" target="_blank" rel="noopener noreferrer" className="icon i-youtube">
                         <YouTubeIcon />

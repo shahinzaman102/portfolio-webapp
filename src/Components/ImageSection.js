@@ -12,29 +12,30 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Shahin Zaman</span></h4>
                 <p className="paragraph">
-                    Passionate software developer with strong fundamentals, focused on clean, efficient code and effective collaboration.
+                    Passionate software developer focused on clean code and collaboration, driven by IoT
                 </p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
                         <p>Birth</p>
                         <p>Nationality</p>
-                        <p>English Proficiency</p>
+                        <p>English</p>
                         <p>Location</p>
                     </div>
                     <div className="info">
                         <p>: Shahin Zaman</p>
                         <p>: 1998</p>
                         <p>: Bangladeshi</p>
-                        <p>: Fluent</p>
+                        <p>: Professional working proficiency</p>
                         <p>: Dhaka, Bangladesh</p>
                     </div>
-                </div>                
-                <a className="download" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
+                </div>
+                <PrimaryButton title={'Download Resume'} />           
+                {/* <a className="download" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
                     <p className="download" rel="noopener noreferrer">
                         <PrimaryButton title={'Download Resume'} />
                     </p>
-                </a>
+                </a> */}
             </div>
         </ImageSectionStyled>
     );
