@@ -227,7 +227,7 @@ const portfolios = [
         image: img23,
         link1: 'https://github.com/shahinzaman102/ZypherMindCLI',
         link2: 'https://drive.google.com/file/d/1d2I1_PN2ZHi9uO6ko7iracE3rqHka965/view?usp=sharing',
-        title: 'ZypherMindCLI – Gemini-Powered AI Agent (CLI)',
+        title: 'ZypherMindCLI – Agent-Ready CLI AI Assistant Powered by Gemini',
         text: 'Tools & Techs 🡪 Deno 2.0+, Gemini API (Text Generation & Reasoning), Firecrawl MCP, TypeScript, Environment-Based Config, Streaming CLI Agent Framework (Zypher)'
     },
 ]
